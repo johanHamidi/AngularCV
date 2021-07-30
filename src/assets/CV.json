@@ -1,0 +1,55 @@
+{
+  "profils": [
+    {
+      "nom": "HAMIDI",
+      "prenom": "Johan",
+      "ddn": "1998-10-11",
+      "adresse" : "VILLENEUVE DE MARC",
+      "permis" :  "B",
+      "mail" :  "johan.hamidi@ipilyon.net",
+      "num" : "0625356044"
+    }
+  ],
+  "experiencespro" : [
+    {
+      "nameCompany" : "SPIGRAPH GROUP",
+      "lieu" : "St-Quentin-Fallavier",
+      "date" : "Du 23/09/2019 Au --",
+      "descriptif" : "Ingénieur IT Junior : Developpement, support, adminsitration réseau"
+    },
+    {
+      "nameCompany" : "SATIS FRANCE",
+      "lieu" : "St-Quentin-Fallavier",
+      "date" : "Du 04/03/2019 Au 12/04/2019",
+      "descriptif" : "Développeur logiciel Windev : Logiciel pour un hopital au Portugal, permettant de prendre à distance des machines du corps médical "
+    },
+    {
+      "nameCompany" : "MA-SAUVEGARDE",
+      "lieu" : "Luzinay",
+      "date" : "Du 28/05/2018 Au 29/06/2018",
+      "descriptif" : "Concepteur de graphiques web : Création de graphiques sur l'intranet des client, ces graphs développés en Javascript avec Chart JS, réprésentaient les données de nos clients (stockage disponible, jetons...) "
+    }
+  ],
+  "formations" : [
+    {
+      "ecole" : "Ecole IPI LYON",
+      "formationsName" : "Master Chef de Projet Ingénierie Logicielle",
+      "anneeEcole" : "2020-"
+    },
+    {
+      "ecole" : "Ecole IPI LYON",
+      "formationsName" : "Licence Concepteur Développeur Full-Stack",
+      "anneeEcole" : "2019-2020"
+    },
+    {
+      "ecole" : "Lycée Ella Fitzgerald, Vienne",
+      "formationsName" : "BTS SIO (Services Informatiques aux Organisations)\noption SLAM (Solutions Logicielles et Applications Métiers)",
+      "anneeEcole" : "2017-2019"
+    },
+    {
+      "ecole" : "Lycée L’Oiselet, Bourgoin-Jallieu",
+      "formationsName" : "BAC STI2D ITEC (Innovation Technologique et Eco Conception)",
+      "anneeEcole" : "2015-2017"
+    }
+  ]
+}
