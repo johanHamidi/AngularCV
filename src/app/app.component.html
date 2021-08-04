@@ -1,24 +1,24 @@
 <body class="bg">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" [routerLink]="['/']">IPI Lyon</a>
-    <button class="navbar-toggler" type="button">
+    <button (click)="isCollapsed = !isCollapsed" class="navbar-toggler" type="button">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div [ngbCollapse]="isCollapsed" class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" [routerLink]="['/profils']">Profil</a>
+          <a (click)="isCollapsed" class="nav-link" [routerLink]="['/profils']">Profil</a>
         </li>
       </ul>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" [routerLink]="['/experiencesPro']">Expériences professionnelles</a>
+          <a (click)="isCollapsed" class="nav-link" [routerLink]="['/experiencesPro']">Expériences professionnelles</a>
         </li>
       </ul>
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" [routerLink]="['/formations']">Mes formations</a>
+          <a (click)="isCollapsed" class="nav-link" [routerLink]="['/formations']">Mes formations</a>
         </li>
       </ul>
     </div>

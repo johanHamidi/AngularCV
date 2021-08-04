@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {SecurityInterceptor} from "../security.interceptor";
 import { ReactiveFormsModule } from '@angular/forms';
+import {NgbCollapseModule} from "@ng-bootstrap/ng-bootstrap";
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgbCollapseModule
   ],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: SecurityInterceptor, multi: true},

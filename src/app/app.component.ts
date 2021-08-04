@@ -8,8 +8,9 @@ const FileSaver = require('file-saver');
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'johanhamidi';
+  isCollapsed = true;
 
   ngOnInit() {
     document.body.classList.add('bg-img');
