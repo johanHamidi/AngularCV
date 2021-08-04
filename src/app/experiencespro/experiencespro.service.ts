@@ -13,6 +13,6 @@ export class ExperiencesproService {
   }
 
   findAll(): Observable<{ experiencespro: Experiencespro[]; }> {
-    return this.http.get('/assets/CV.json') as Observable<{ experiencespro: Experiencespro[] }>;
+    return this.http.get('assets/CV.json') as Observable<{ experiencespro: Experiencespro[] }>;
   }
 }

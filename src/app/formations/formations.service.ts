@@ -13,6 +13,6 @@ export class FormationsService {
   }
 
   findAll(): Observable<{ formations: Formations[]; }> {
-    return this.http.get('/assets/CV.json') as Observable<{ formations: Formations[] }>;
+    return this.http.get('assets/CV.json') as Observable<{ formations: Formations[] }>;
   }
 }

@@ -13,6 +13,6 @@ export class ProfilsService {
   }
 
   findAll(): Observable<{ profils: Profil[]; }> {
-    return this.http.get('/assets/CV.json') as Observable<{ profils: Profil[] }>;
+    return this.http.get('assets/CV.json') as Observable<{ profils: Profil[] }>;
   }
 }
